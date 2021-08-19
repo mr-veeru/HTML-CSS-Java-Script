@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .emoji{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            justify-content: center;
+        }
+        .mouth{
+            width: 30%;
+            height: 20%;
+            background: black;
+            position: absolute;
+            border-radius: 53% 47% 47% 53% / 12% 12% 88% 88%;
+            bottom: 13%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+        }
+        .tooth{
+            width: 100%;
+            height: 40%;
+            background: white;
+            border-radius: 53% 47% 47% 53% / 23% 23% 77% 77%;
+        }
+        .toungue{
+            position: absolute;
+            width: 60%;
+            height: 80%;
+            border-radius: 37% 63% 63% 37% / 31% 31% 69% 69%;
+            background: red;
+            bottom: -40%;
+        }
+        
+        .face-circle{
+            width: 50%;
+            height: 100%;
+            background: #ebbd05;
+            position: absolute;
+            border-radius: 50%;
+        }
+        
+        .eye-1, .eye-2{
+            width: 10%;
+            height: 20%;
+            background: white;
+            position: relative;
+            border-radius: 50%;
+            top: 7rem;
+            margin: 6%;
+            display: flex;
+            justify-content: center;
+        }
+        .black-c{
+            width: 50%;
+            height: 80px;
+            background: black;
+            border-radius: 50%;
+        }
+        .white-c{
+            width: 25%;
+            height: 35%;
+            background: white;
+            border-radius: 50%;
+            position: relative;
+            left: 60%;
+            top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="emoji">
+        <span class="face-circle"> </span>
+        <div class="eye-1">
+            <div class="black-c">
+                <div class="white-c"></div>
+            </div>
+        </div>
+        <div class="eye-2">
+            <div class="black-c">
+                <div class="white-c"></div>
+            </div>
+        </div>
+        <div class="mouth">
+            <div class="tooth"></div>
+            <span class="toungue"></span>
+        </div>
+    </div>
+</body>
+</html>
